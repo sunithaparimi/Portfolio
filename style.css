@@ -47,10 +47,7 @@ body {
     color:#f1f1f1;
     line-height: 2;
     letter-spacing: 0.7px;
-    background-image: url('/background.png'); /* Path to your image */
-    background-size: cover; /* Cover the entire area */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat;
+     background: #000; 
     
 }
 
