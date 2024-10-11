@@ -47,19 +47,20 @@ body {
     color:#f1f1f1;
     line-height: 2;
     letter-spacing: 0.7px;
-    background-image: url('blackground1.png'); /* Path to your image */
+    background-image: url('background.png'); /* Path to your image */
     background-size: cover; /* Cover the entire area */
     background-position: center; /* Center the image */
     background-repeat: no-repeat;
     
 }
 
-
 /*about*/
 
 .about-section {
+    box-sizing: border-box;
     padding: 20px 0;
     text-align: center;
+    border: 2px solid #007BFF;
 
 }
 
@@ -90,7 +91,7 @@ body {
 .skills-section {
     padding: 20px 0;
     text-align: center;
-
+    border: 2px solid #007BFF;
 }
 
 .container {
@@ -135,6 +136,7 @@ body {
 .project-section {
     padding: 20px 0;
     text-align: center;
+    border: 2px solid #007BFF;
 
 }
 
@@ -194,6 +196,7 @@ body {
  .reach-out-section {
     padding: 20px 0;
     text-align: center;
+    border: 2px solid #007BFF;
 
 }
 
@@ -254,6 +257,7 @@ body {
 .contact-section {
     padding: 20px 0;
     text-align: center;
+    border: 2px solid #007BFF;
 
 }
 
@@ -332,7 +336,7 @@ button:hover {
     font-size: 1.2em;
     z-index: 1000;
     transition: background-color 0.3s;
-
+    border: 2px solid #007BFF;
 }
 
 .back-to-top:hover {
